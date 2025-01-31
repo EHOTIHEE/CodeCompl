@@ -4,8 +4,10 @@ import { randomNumber } from '../utils/randomizer'
 // generate function to check syntax of the string
 
 
+
+// create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
 //4th case
-function addBook() {}
+function addBook(book) {}
 
 
 // create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
