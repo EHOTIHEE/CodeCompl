@@ -22,10 +22,12 @@ class Library extends Book {
     addBook(book) {
         this.books.push(book);
     }
+
     
     // 5th case
     editBook(oldTitle, newTitle, newAuthor) {
-        const bookIndex = this.books.findIndex((book) => book.title === oldTitle);}
+        const bookIndex = this.books.findIndex((book) => book.title === oldTitle);
+    }
 }
 
 
