@@ -7,7 +7,7 @@ import { randomNumber } from '../utils/randomizer'
 
 // create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
 //4th case
-function addBook(book) {}
+
 
 
 // create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
@@ -22,6 +22,8 @@ class Library extends Book {
     addBook(book) {
         this.books.push(book);
     }
+
+
 
     
     // 5th case
