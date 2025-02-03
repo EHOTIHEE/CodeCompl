@@ -49,7 +49,22 @@ class AsyncArrowFunctions {
       }
     };
     
-    // 7th case here
+    // Example of an async arrow function for updating data
+    
+    updateData = async (url, updatedData) => {
+      try {
+        const response = await fetch(url, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(updatedData),
+        });
+        return response.ok;
+      } catch (error) {
+        console.error('Error updating data:', error);
+      }
+    }
     saveData = async (data) => {
         try {
             const response = await fetch('/api/save', {
