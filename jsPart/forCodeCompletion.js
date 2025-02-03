@@ -49,8 +49,7 @@ class AsyncArrowFunctions {
       }
     };
     
-    // Example of an async arrow function for updating data
-    
+    // Example of function for updating data with url and updated data as parameters
     saveData = async (data) => {
         try {
             const response = await fetch('/api/save', {
