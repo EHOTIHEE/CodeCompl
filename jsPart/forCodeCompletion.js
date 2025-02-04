@@ -89,7 +89,6 @@ class AsyncArrowFunctions {
   //11th case
   async function processItemsSequentially(items, delay){
     let index = 0
-    while(index < items.length){}
   }
 
     //12th case
