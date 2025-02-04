@@ -111,7 +111,7 @@ class AsyncArrowFunctions {
       //15th case
     class author {
         //after constructor
-        constructor() {
+        constructor( ) {
           this.authorName = authorName;
           this.age = age;
           this.gender = gender;
@@ -121,8 +121,7 @@ class AsyncArrowFunctions {
         }
         //16th case
         isFromCountry(targetCountry) {
-  
-    
+            return this.country.toLowerCase() === targetCountry.toLowerCase();
         }
         //17th case
         addNewEmail(newEmail) {
