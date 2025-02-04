@@ -84,17 +84,13 @@ class AsyncArrowFunctions {
   }
   //9th case
   async function processItemWithDelay(items, delay){
-    let index = 0 
+    let index = 0
   }
-
+  //11th case
   async function processItemsSequentially(items, delay){
     let index = 0
-    //11th case
-    while(index < items.length){
-        const item = items[index];
-        await processItemWithDelay(item,delay);
-        index++;
-    }}
+    while(index < items.length){}
+  }
 
     //12th case
     async function getBooksByType(type){
