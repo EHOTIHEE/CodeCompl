@@ -99,7 +99,7 @@ class AsyncArrowFunctions {
     }
     //13th case 
     function checkValue() {
-        const a = " ";
+        const a = "";
         if (a === "smt") {
           console.log("The variable 'a' contains:", a);
         } else {
@@ -111,7 +111,7 @@ class AsyncArrowFunctions {
       //15th case
     class author {
         //after constructor
-        constructor( authorName, age, gender,country,email) {
+        constructor() {
           this.authorName = authorName;
           this.age = age;
           this.gender = gender;
