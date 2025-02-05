@@ -111,7 +111,7 @@ class AsyncArrowFunctions {
       //15th case
     class author {
         //after constructor
-        constructor( ) {
+        constructor() {
           this.authorName = authorName;
           this.age = age;
           this.gender = gender;
