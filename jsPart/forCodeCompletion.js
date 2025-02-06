@@ -6,7 +6,7 @@ import { randomNumber } from '../utils/randomizer'
 
 //4th case
 
-
+// Parse the input string into a JavaScript object
 
 
 
@@ -80,6 +80,7 @@ class AsyncArrowFunctions {
   
     // 10th case
     updateData = async (url, newData) => {
+
     }
   }
   //9th case
