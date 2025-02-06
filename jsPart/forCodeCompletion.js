@@ -9,6 +9,7 @@ import { randomNumber } from '../utils/randomizer'
 // Parse the input string into a JavaScript object
 
 
+
 // create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
 
 //5 case
@@ -79,7 +80,6 @@ class AsyncArrowFunctions {
   
     // 10th case
     updateData = async (url, newData) => {
-
     }
   }
   //9th case
