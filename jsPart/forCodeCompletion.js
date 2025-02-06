@@ -121,7 +121,7 @@ class AsyncArrowFunctions {
         }
         //16th case
         isFromCountry(targetCountry) {
-            return this.country.toLowerCase() === targetCountry.toLowerCase();
+            
         }
         //17th case
         addNewEmail(newEmail) {
