@@ -1,4 +1,4 @@
-import { randomNumber } from '../utils/randomizer'
+import { randomNumberTs } from '../untils/randomizerForTs';
 
 //3rd case
 // generate function to check syntax of the string
