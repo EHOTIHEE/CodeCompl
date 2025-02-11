@@ -64,6 +64,7 @@ class AsyncArrowFunctions {
             console.error('Error saving data:', error);
         }
     };
+  }
 
   
     // Example of an async arrow function for deleting data
@@ -80,7 +81,6 @@ class AsyncArrowFunctions {
   
     // 10th case
     updateData = async (url, newData) => {
-    }
   }
   //9th case
   async function processItemWithDelay(items, delay){
