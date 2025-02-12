@@ -1,8 +1,7 @@
 import { randomNumber } from '../utils/randomizerForTs';
-
+import * as esprima from 'esprima';
 // 3rd case
-// generate function to check syntax of the string
-
+// generate function to check syntax of the string with try/catch block and using esprima library.
 
 
 // 4th case
