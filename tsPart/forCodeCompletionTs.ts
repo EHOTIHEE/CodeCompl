@@ -141,16 +141,12 @@ class Author {
         this.email = `${1} + ${this.email}`;
     }
 }
-
-// 6th буду удалять скобки и писать заново
-function checkIfElse(condition: boolean) {}
-
+// 23th case
 
 
 function getUniqueNumbers (...numbers: number[]){
     return [...new Set(numbers)];
 }
-
 function processNumbers (  ): void {
     numbers.forEach((num, index) => console.log(`Число ${num} на позиции ${index}`));
   }
