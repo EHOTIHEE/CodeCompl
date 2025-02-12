@@ -133,7 +133,6 @@ class Author {
 
     // 16th case
     isFromCountry(targetCountry: string): boolean {
-        return this.country === targetCountry;
     }
 
     // 17th case
