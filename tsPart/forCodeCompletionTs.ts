@@ -18,7 +18,11 @@ class Book {
 
 
     // 2nd case
-    constructor(title: string, author: string, genre?: string, year?: number) {   
+    constructor() {
+        this.title = title;
+        this.author = author;
+        this.genre = genre || ''; // Default value for genre
+        this.year = year || 0; // Default value for year
     }
 }
 
