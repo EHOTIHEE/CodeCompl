@@ -101,6 +101,7 @@ async function processItemWithDelay(items: any[], delay: number) {
 
 // 11th case
 async function processItemsSequentially(items: any[], delay: number) {
+    let index = 0;
 }
 
 // еще один кейс внутри фильтра
