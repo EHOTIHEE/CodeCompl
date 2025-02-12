@@ -90,7 +90,7 @@ class AsyncArrowFunctions {
     };
 
     // 10th case
-    updateData = async (url: string, newData: any): Promise<void> => {
+    updateData = async (url: string, newData: any): Promise<boolean | undefined> => { 
     };
 }
 
