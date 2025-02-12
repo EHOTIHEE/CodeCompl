@@ -97,12 +97,10 @@ class AsyncArrowFunctions {
 // 9th case
 async function processItemWithDelay(items: any[], delay: number) {
     let index = 0;
-
 }
 
 // 11th case
 async function processItemsSequentially(items: any[], delay: number) {
-    let index = 0;
 }
 
 // еще один кейс внутри фильтра
