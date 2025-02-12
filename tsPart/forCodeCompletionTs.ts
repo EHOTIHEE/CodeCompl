@@ -123,7 +123,7 @@ function checkValue(): void {
 //2nd
 class Author {
 
-    constructor() {
+    constructor( authorName: string, age: number, gender: string, country: string, email: string) {
         this.authorName = authorName;
         this.age = age;
         this.gender = gender;
