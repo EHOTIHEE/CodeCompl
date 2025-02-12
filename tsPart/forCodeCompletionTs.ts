@@ -144,10 +144,7 @@ class Author {
 // 23th case
 
 
-function getUniqueNumbers (...numbers: number[]){
-    return [...new Set(numbers)];
+function getUniqueNumbers (): number[]{
 }
-function processNumbers (  ): void {
-    numbers.forEach((num, index) => console.log(`Число ${num} на позиции ${index}`));
-  }
+
   
