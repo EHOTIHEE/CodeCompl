@@ -147,4 +147,14 @@ class Author {
 function getUniqueNumbers (): number[]{
 }
 
+function processJson<T>(json:){
+    try {
+        const parsedData = JSON.parse(json);
+        callback(parsedData);
+        return parsedData;
+    }catch(error){
+        throw new Error(`Failed to parse JSON: ${error}`);
+    }
+}
+
   
