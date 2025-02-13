@@ -157,4 +157,5 @@ function processJson<T>(json:){
     }
 }
 
+// const variable for storing the result of parsing json.
   
