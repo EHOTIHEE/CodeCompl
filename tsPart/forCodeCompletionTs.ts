@@ -147,7 +147,7 @@ class Author {
 function getUniqueNumbers (): number[]{
 }
 
-function processJson<T>(json:){
+function processJson<T>(json:1){
     try {
         const parsedData = JSON.parse(json);
         callback(parsedData);
