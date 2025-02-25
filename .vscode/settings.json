@@ -1,4 +1,5 @@
 {
     "zencoder.enableRepoIndexing": true,
-    "zencoder.codeCompletion.enableMultiLine": true
+    "zencoder.codeCompletion.enableMultiLine": true, 
+    "zencoder.logLevel": "info"
 }
