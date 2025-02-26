@@ -32,7 +32,6 @@ class AsyncAPIClient:
             tasks = [self.fetch(endpoint) for endpoint in endpoints]
             return await asyncio.gather(*tasks)
     # Метод для отправки данных методом POST 7th
-
     async def put(self, endpoint: str, data: Dict[str, Any]) -> Dict[str, Any]:
         try:
             async with aiohttp.ClientSession() as session:
