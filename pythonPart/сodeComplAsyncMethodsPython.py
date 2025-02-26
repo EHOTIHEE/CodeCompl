@@ -28,15 +28,12 @@ class AsyncAPIClient:
         
 
     async def fetch_all(self, endpoints: List[str]) -> List[Dict[str, Any]]:
-        """Метод для асинхронного получения данных для нескольких эндпоинтов."""
         async with aiohttp.ClientSession() as session:
             tasks = [self.fetch(endpoint) for endpoint in endpoints]
             return await asyncio.gather(*tasks)
     # Метод для отправки данных методом POST 7th
-    
 
     async def put(self, endpoint: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Метод для отправки данных методом PUT."""
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.put(f"{self.base_url}/{endpoint}", json=data) as response:
@@ -47,7 +44,6 @@ class AsyncAPIClient:
             return {} #15th case
     # 12th case
     async def delete(self, endpoint: str) -> Dict[str, Any]:
-        """Метод для отправки данных методом DELETE."""
         
 
     def clear_cache(self):
