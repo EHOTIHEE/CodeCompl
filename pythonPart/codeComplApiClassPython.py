@@ -6,7 +6,7 @@ class APIClient:
     def __init__(self, base_url: str):
         self.base_url = base_url
     # 2nd case
-    def get( ) -> Dict[str, Any]:
+    def get() -> Dict[str, Any]:
         try:
             response = requests.get(f"{self.base_url}/{endpoint}", params=params)
             response.raise_for_status()  # Если код ответа не 2xx, вызовет исключение

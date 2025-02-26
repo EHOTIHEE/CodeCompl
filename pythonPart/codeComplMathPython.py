@@ -1,10 +1,7 @@
 # 10th case
 def sum_numbers(n: int) -> int:
     total = 0
-    i = 1 
-     
-    
-
+    i = 1
 def factorial(n: int) -> int:
     result = 1
     while n > 1:

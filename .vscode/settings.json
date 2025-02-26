@@ -1,5 +1,19 @@
 {
     "zencoder.enableRepoIndexing": true,
     "zencoder.codeCompletion.enableMultiLine": true, 
-    "zencoder.logLevel": "info"
+    "zencoder.logLevel": "info",
+    "zencoder.endpoints.signIn": "https://auth.zencoder.ai/extension/signin",
+    "zencoder.endpoints.signUp": "https://auth.zencoder.ai/extension/signup",
+    "zencoder.endpoints.authService": "https://auth.zencoder.ai",
+    "zencoder.endpoints.chat": "https://api.zencoder.ai/chat",
+    "zencoder.endpoints.codeEdit": "https://api.zencoder.ai/codeedit",
+    "zencoder.endpoints.codeRepair": "https://api.zencoder.ai/repair",
+    "zencoder.endpoints.docString": "https://api.zencoder.ai/docstrings",
+    "zencoder.endpoints.repoUpload": "https://api.zencoder.ai/repo-upload-service",
+    "zencoder.endpoints.userfeedback": "https://api.zencoder.ai/feedback-service",
+    "zencoder.endpoints.unitTests": "https://api.zencoder.ai/unittests",
+    "zencoder.endpoints.codeCompletion": "https://api.zencoder.ai/code-completion-service",
+    "zencoder.endpoints.ablyAuthCallback": "https://api.zencoder.ai/transport-bus/auth_callback",
+    "zencoder.endpoints.workflow": "https://api.zencoder.ai/zencoder-workflow",
+    "zencoder.endpoints.controlPlane": "https://api.zencoder.ai"
 }

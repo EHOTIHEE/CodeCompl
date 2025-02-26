@@ -24,11 +24,8 @@ class ShoppingCart:
         self.items = []
         self.total_price = 0
 
-# 4th 
+# 4th  
 def calculate_total_with_discount(cart: ShoppingCart, discount_percentage: float):
-
-    
-
 # Пример использования корзины покупок
     cart = ShoppingCart()
     cart.add_item("Laptop", 1000, 1)
