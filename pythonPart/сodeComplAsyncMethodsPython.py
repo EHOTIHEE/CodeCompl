@@ -14,7 +14,7 @@ class AsyncAPIClient:
         self.cache = {}  # Простое кеширование для сохранения данных
 
     async def _fetch(self, session: aiohttp.ClientSession, endpoint: str) -> Dict[str, Any]:
-        """Вспомогательный метод для получения данных."""
+        # Вспомогательный метод для получения данных
         try:
             async with session.get(f"{self.base_url}/{endpoint}") as response:
                 response.raise_for_status()  # Поднимет исключение при ошибке HTTP
@@ -24,7 +24,7 @@ class AsyncAPIClient:
             return {}
     # 9th case
     async def fetch(self, endpoint: str) -> Dict[str, Any]:
-        """Метод для получения данных с кешированием."""
+        # Метод для получения данных с кешированием.
         
 
     async def fetch_all(self, endpoints: List[str]) -> List[Dict[str, Any]]:
