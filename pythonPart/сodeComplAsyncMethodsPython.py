@@ -26,7 +26,6 @@ class AsyncAPIClient:
     async def fetch(self, endpoint: str) -> Dict[str, Any]:
         # Метод для получения данных с кешированием.
         
-
     async def fetch_all(self, endpoints: List[str]) -> List[Dict[str, Any]]:
         async with aiohttp.ClientSession() as session:
             tasks = [self.fetch(endpoint) for endpoint in endpoints]
@@ -42,7 +41,6 @@ class AsyncAPIClient:
             logger.error(f" ")
             return {} #15th case
     # 12th case
-    async def delete(self, endpoint: str) -> Dict[str, Any]:
         
 
     def clear_cache(self):
