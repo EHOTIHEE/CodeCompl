@@ -6,7 +6,7 @@ import { randomNumberTs } from '../untils/randomizerForTs';
 
 //4th case
 
-// Parse the input string into a JavaScript object
+// Parse the input string JavaScript object
 
 
 
@@ -23,8 +23,7 @@ class Library extends Book {
         this.books.push(book);
     }
 
-
-
+//
     
     // 5th case
     editBook(oldTitle, newTitle, newAuthor) {

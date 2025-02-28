@@ -7,7 +7,7 @@ default_is_active = True
 # 16th case
 class UserService:
     def create_user():
-        # Создает пользователя с указанными параметрами
+        # Creates a user with the specified parameters
         return {
             "username": username,
             "email": email,
