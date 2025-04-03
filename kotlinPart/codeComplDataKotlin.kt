@@ -19,7 +19,7 @@ class DataProcessor {
         println("Четные числа от 1 до $limit:")
         for (i in 1..limit) {
             if (i % 2 == 0) {
-                println(i)
+                println()
             }
         }
     }

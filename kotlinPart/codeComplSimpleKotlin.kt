@@ -5,7 +5,7 @@ class Example {
         return a + b
     }
 
-    // Ещё одна функция с входными параметрами
+    // 7th
     fun multiply(a: Int, b: Int): Int {
         return a * b
     }
@@ -23,9 +23,9 @@ class Example {
         }
     }
 
-    // Простая функция без параметров
+    // 12th 
     fun greet() {
-        println("Привет, мир!")
+        println("")
     }
 
     // 9th
