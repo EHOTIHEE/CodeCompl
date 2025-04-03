@@ -6,31 +6,30 @@ data class User(val name: String, val age: Int)
 
 class JsonHandler {
 
-    // Функция, принимающая параметры и работающая с ними
-    fun processInput(name: String, age: Int): String {
+    // 2nd case
+    fun processInput(): String {
         return "Received input - Name: $name, Age: $age"
     }
+    // 3rd case
+    // Функция, которая создает строку с использованием конструкции и выводит Hello Kotlin!
 
-    // Функция, которая создает строку с использованием конструкции
-    fun createString(): String {
-        return "This is a string constructed with \"quotes\""
-    }
-
-    // Функция, которая возвращает значение
     fun getUserJson(): String {
         val user = User("John", 30)
         return Json.encodeToString(user)
     }
 
-    // Функция с условием if/else
-    fun checkUserAge(age: Int): String {
-        return if (age >= 18) {
-            "User is an adult."
-        } else {
-            "User is a minor."
-        }
-    }
 }
+// функции по узнаванию пола, возраста, роста юзера
+
+fun checkUserAge(age: Int): Boolean {
+    return age >= 18
+}
+// 4th case
+
+fun getHeight(heightInCm: Double): String {
+    return "$heightInCm cm"
+}
+
 
 fun main() {
     val jsonHandler = JsonHandler()

@@ -3,25 +3,34 @@ import kotlinx.coroutines.*
 class DataFetcher {
     suspend fun fetchUserData(): String {
         delay(2000)
-        return "User data loaded"
+        return ""
     }
+    // 14 сase
 
     suspend fun fetchOrders(): String {
         delay(3000)
         return "Orders loaded"
     }
     // 7th case
-    
 
+    suspend fun fetchProductList(): String {
+        return try {
+            delay(1000)
+            "Product list loaded"
+        } catch (e: Exception) {
+            "Ошибка загрузки списка продуктов: ${e.message}"
+        }
+    }
 
-    
+    // 11 case
+    suspend fun fetchSettings(): String {
+    }
 
-    suspend fun fetchNotifications(): String {
+    suspend fun fetchNotifications(): String { 
         delay(1500)
         return "Notifications loaded"
     }
-
-    // ? case after точки
+    // 5th case
 
     suspend fun fetchAllData(): {
         val userDataDeferred = async { fetchUserData() }
