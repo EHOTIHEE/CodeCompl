@@ -18,7 +18,7 @@ class DataFetcher {
             delay(1000)
             "Product list loaded"
         } catch (e: Exception) {
-            "Ошибка загрузки списка продуктов: ${e.message}"
+            "Error loading product list: ${e.message}"
         }
     }
 
