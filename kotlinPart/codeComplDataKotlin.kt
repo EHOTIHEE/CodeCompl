@@ -12,7 +12,7 @@ class DataProcessor {
     }
     // 10th 
     fun printSquares(limit: Int) {
-        println("Квадраты чисел от 1 до $limit:")
+        println("squares of numbers from 1 to $limit:")
     }
 
     fun printEvenNumbers(limit: Int) {

@@ -1,6 +1,6 @@
 class Example {
 
-    // Функция с входными параметрами
+    
     fun sum(a: Int, b: Int): Int {
         return a + b
     }
@@ -36,9 +36,9 @@ class Example {
     fun countdownWithMessage(start: Int) {
         var i = start
         while (i > 0) {
-            println("До старта осталось $i секунд")
+            println("There are $i seconds left until the start")
             i--
         }
-        println("Запуск завершён!")
+        println("Launch complete!")
     }
 }
