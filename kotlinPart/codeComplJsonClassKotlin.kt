@@ -26,8 +26,8 @@ fun checkUserAge(age: Int): Boolean {
 }
 // 4th case
 
-fun getHeight(heightInCm: Double): String {
-    return "$heightInCm cm"
+fun getGender(gender: Char): String {
+    return if (gender == 'M') "Male" else "Female"
 }
 
 
