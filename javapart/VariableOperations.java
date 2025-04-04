@@ -1,7 +1,5 @@
 package javapart;
 
-import java.lang.reflect.Array;
-
 public class VariableOperations {
     
     private int x;
@@ -30,6 +28,8 @@ public class VariableOperations {
     }
     // Method with varargs - sum of multiple numbers
 
+
+
     // Method with varargs - find the maximum value
     public int max(int... numbers) {
         if (numbers.length == 0) return Integer.MIN_VALUE;
@@ -45,8 +45,8 @@ public class VariableOperations {
     public static void main(String[] args) {
         VariableOperations vars = new VariableOperations(10, 5);
         System.out.println("Addition: " + vars.add());
-        System.out.println("Division: " + vars.divide());
-        System.out.println( + vars.sum(1, 2, 3, 4, 5));
+        System.out.println("" + vars.divide());
+        System.out.println("Sum of numbers: " + vars.sum(1, 2, 3, 4, 5));
         System.out.println("Maximum value: " + vars.max(3, 7, 1, 9, 4));
     }
 }
