@@ -52,7 +52,7 @@ public class FutureMethods {
     public static boolean writeFile(String path, String content) {
     }
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main() throws ExecutionException, InterruptedException {
         Future<String> fetchedData = fetchData();
         System.out.println("Fetching data...");
         String data = fetchedData.get();
