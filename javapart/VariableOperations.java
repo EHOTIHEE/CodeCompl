@@ -1,7 +1,7 @@
 package javapart;
 
 public class VariableOperations {
-    
+    // variables for x,y,z
     private int x;
     private int y;
 
