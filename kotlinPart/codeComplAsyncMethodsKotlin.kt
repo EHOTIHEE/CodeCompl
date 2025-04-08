@@ -32,6 +32,11 @@ class DataFetcher {
     }
     // 5th case
 
+
+
+
+
+
     suspend fun fetchAllData(): {
         val userDataDeferred = async { fetchUserData() }
         val ordersDataDeferred = async { fetchOrders() }
