@@ -16,7 +16,7 @@ class ShoppingCart:
                 print(f"Removed {item} from the cart.")
                 return
         print(f"{item} not found in cart.")
-    # 5th 
+    # 5th function with if else structure
     
 
     def checkout(self):
