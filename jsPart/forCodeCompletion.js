@@ -81,7 +81,7 @@ class AsyncArrowFunctions {
     // 10th case
     updateData = async (url, newData) => {
   }
-  //9th case
+  //9th case function with while
   async function processItemWithDelay(items, delay){
     let index = 0
   }
