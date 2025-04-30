@@ -1,7 +1,7 @@
 import { randomNumberTs } from '../untils/randomizerForTs';
 
 //3rd case
-// generate function to check syntax of the string
+// Write a JavaScript function named checkSyntax that takes a string, evaluates it using eval, and returns true if it's valid code or false if an error is thrown. Keep the implementation minimal — no extra logic, no comments, no explanation, just the raw function.
 
 
 //4th case
