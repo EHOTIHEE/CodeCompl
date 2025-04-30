@@ -9,7 +9,7 @@ use function Amp\call;
 
 class AsyncExample
 {
-    // Async function prints a message after delay
+    // Generate a PHP method called asyncMessage that returns a Promise. Inside it, use call with a generator function that yields a Delayed(400) and then prints the message "This message was printed asynchronously.\n" using echo
 
 
     
