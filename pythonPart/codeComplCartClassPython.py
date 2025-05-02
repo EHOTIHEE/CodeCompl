@@ -16,7 +16,7 @@ class ShoppingCart:
                 print(f"Removed {item} from the cart.")
                 return
         print(f"{item} not found in cart.")
-    # 5th function with if else structure
+    # 5th This method apply_discount applies a discount to the total_price by the given percentage, if it is between 0 and 100. If the percentage is valid, it reduces the price accordingly and prints a confirmation message. Otherwise, it prints an error message.
     
 
     def checkout(self):
