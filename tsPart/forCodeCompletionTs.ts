@@ -5,7 +5,7 @@ import * as esprima from 'esprima';
 
 
 // 4th case
-// Parse the input string into a TypeScript object
+// The sortJsonString function accepts a JSON-formatted string representing an object. It parses the string using JSON.parse, extracts the object's values using Object.values, and returns them as an array of type any[] sorted in ascending lexicographical order using JavaScript’s default .sort() behavior. The values are sorted as strings if they are primitive types, or according to their natural ordering if they are objects. If the input string is not valid JSON, the function throws an error with the message 'Invalid JSON format'.
 
 // create a class for books with types and methods to add, remove, edit, view, sort, filter and search for them.
 
